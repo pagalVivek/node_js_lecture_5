@@ -10,5 +10,5 @@ const validator = require('validator')
 let res = validator.isEmail("hello@hello.com")
 console.log(res)
 console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res))
-
+console.log("hello")
 
